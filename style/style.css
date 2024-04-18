@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: #9290C3;
+}
+
+a:hover {
+    color: #535C91;
+}
+
+body {
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #070F2B;
+    color: white;
+}
+
+.block * {
+    margin-left: 1em;
+}
+
+.block {
+    padding: 2em;
+    background-color: #1B1A55;
+}
+
+.block h2 {
+    margin-left: 0;
+}
+
+#blocks {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+#medalimage {
+    width: 30em;
+    max-width: 100%;
+}
+
+#name {
+    text-align: center;
+}
+
+#shortinfo p {
+    display: flex;
+    flex-flow: column nowrap;
+}
